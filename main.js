@@ -1,7 +1,7 @@
 
 
-
-    $(document).click(function() {
+$(document).ready(function() {
+    $('.editable').on('click', function() {
     var $this = $(this);
     if($this.attr('editing') != '1') {
         
@@ -17,4 +17,5 @@
             $(this).replaceWith(div)
         })
     }
+})
 })
