@@ -1,0 +1,17 @@
+.active {
+    border: 1px solid blue;
+    font-weight: bold;
+}
+.editable {
+	border: 1px solid black;
+	padding: 3px;
+	width: 90px;
+	float: right;
+	font-size: 12px;
+}
+.social {
+	float: left;
+	
+
+
+}
