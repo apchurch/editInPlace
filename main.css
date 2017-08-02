@@ -1,31 +1,11 @@
-.active {
-    border: 1px solid blue;
-    font-weight: bold;
+.hidden {
+	display: none;
 }
-.editable {
-	border: 1px solid black;
-	padding: 3px;
-	width: 90px;
-	font-size: 12px;
-	height: 50px;
-	font-family: times;
-	float: left;
-	text-align: left;
-}
-input {
-	border: 1px solid black;
-	padding: 3px;
-	width: 90px;
-	font-size: 12px;
-	height: 50px;
-	font-family: times;
-	float: left;
-	text-align: left;
-}
-text {
-	position: absolute;
+#myNameInput {
+	margin-top: 4px;
+	margin-bottom: 4px;
 }
 
-	
-
-
+body {
+	text-align: center;
+}
